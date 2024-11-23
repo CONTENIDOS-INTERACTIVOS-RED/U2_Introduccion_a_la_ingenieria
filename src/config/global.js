@@ -29,45 +29,25 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Fundamentos de la ingeniería',
+        titulo: '¿Qué es la Revolución 4.0?',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'El ciclo de la ingeniería ',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo:
-              'Fundamentos de la ingeniería: un pilar para la innovación ',
-            hash: 't_1_2',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Concepto de ingeniería',
+        titulo: 'Impacto de la automatización en la ingeniería',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo:
-              'Principales disciplinas de la ingeniería en la Industria 4.0',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'La era digital y la industria 4.0',
-            hash: 't_2_2',
-          },
-        ],
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
+        numero: '3',
+        titulo: 'Digitalización: conceptos simples de IoT ',
+        desarrolloContenidos: true,
+        subMenu: [],
       },
     ],
     subMenu: [
@@ -95,7 +75,7 @@ export default {
       {
         icono: 'fas fa-file-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/Biologia desarrollo humano_U1.zip',
+        download: 'downloads/Introducción a la ingenieria_U2.zip',
       },
       {
         icono: 'fas fa-download',
@@ -112,94 +92,120 @@ export default {
   referencias: [
     {
       referencia:
-        'Ruíz Ayala, D., Saavedra Prieto, J., & Ramírez López, L. J. (2021, septiembre 7). Rol de la mujer en la ingeniería: Caso UMNG. Ponencia presentada en el Encuentro Internacional de Educación en Ingeniería ACOFI 2021.',
-      link: 'https://doi.org/10.26507/ponencia.1720',
+        'Cárdenas López, Juan Camilo - López Garzón, Wilmar Ferney. (2019). Tecnología internet of things (IoT) y el big data. Mare Ingenii. Ingenierías, 1 (1), 74-79. Fundación Universitaria San Mateo.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente',
     },
     {
       referencia:
-        'Structuralia. (2022, agosto 2). Barómetro 2022: Informe de la formación en el sector de la ingeniería. Lifelong Learning Service.',
-      link: 'https://blog.structuralia.com/barometro-2022-para-empresas-pharos',
+        'Cartagena, J. (s.f.). Industria 4.0 la 4ª revolución industrial.',
+      link: '',
     },
     {
       referencia:
-        'Structuralia Blog. (2023, junio 22). 23 de junio, Día Internacional de la Mujer en la Ingeniería. Ingeniería Civil y Transporte.',
-      link:
-        'https://blog.structuralia.com/dia-internacional-de-la-mujer-en-la-ingenieria',
+        'García Moreno, Emilio. (2020). Automatización de procesos industriales: robótica y automática. Editorial de la Universidad Politécnica de Valencia.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente',
     },
     {
       referencia:
-        'Structuralia Blog. (2023, noviembre 20). Las aplicaciones de la ingeniería genética moldean el futuro. Transformación Digital e Ingeniería 4.0.',
-      link: 'https://blog.structuralia.com/aplicaciones-ingenieria-genetica',
+        'José William Ugalde Vicuña, Luis Enrique Soto Chávez. (2022). Desarrollo de competencias técnicas en la práctica de la ingeniería en la revolución industrial 4.0. AlfaPublicaciones.',
+      link: 'https://elicit.com/notebook',
     },
     {
       referencia:
-        'Vivas López, [Iniciales del nombre], Carrillo, [Iniciales del nombre], & Ruíz Ayala, D. (2021). Resumen de los mejores papers en principios fundamentales de la educación en ingeniería.',
-      link: 'https://elicit.com/notebook/0b73ea61-803c-4155-aafe-a9685cf6310a',
+        'Pérez Calle, Ricardo. (2024). Economía, derecho y empresa ante una nueva era: digitalización, IA, y competitividad en un entorno global. Dykinson.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente',
+    },
+    {
+      referencia: 'Pocho Costa. (s.f.). Inteligencia artificial.',
+      link: 'https://open.spotify.com/show/6Ej4jertUixuVlqG8gYYEX',
+    },
+    {
+      referencia:
+        'Web 1.0, 2.0, 3.0 y 4.0 Diferencias y Características - La Evolución De La Web',
+      link: '',
     },
   ],
   glosario: [
     {
-      termino: 'Conocimiento',
+      termino: 'Automatización',
       significado:
-        'Información adquirida a través del estudio y la experiencia',
+        'Uso de tecnologías para realizar tareas de forma automática',
     },
     {
-      termino: 'Creatividad',
-      significado: 'Capacidad de generar ideas nuevas y originales',
-    },
-    {
-      termino: 'Desarrollo',
-      significado: 'Proceso de crecimiento y evolución',
-    },
-    {
-      termino: 'Diseño',
+      termino: 'AWS IoT Core',
       significado:
-        'Proceso de concepción y desarrollo de un producto o sistema',
+        'Conector que permite conectar una gran cantidad de dispositivos de diferentes tipos y protocolos',
     },
     {
-      termino: 'Diseño de sistema',
+      termino: 'Azure IoT Hub',
       significado:
-        'Proceso de creación de sistemas complejos que cumplen una función específica',
+        'Facilitador de gestión de un gran número de dispositivos, incluyendo tareas como la configuración, actualización y monitoreo',
     },
     {
-      termino: 'Ingeniería',
+      termino: 'Big data',
       significado:
-        'Disciplina que aplica conocimientos científicos y tecnológicos para resolver problemas y diseñar soluciones',
+        'Grandes volúmenes de datos que requieren tecnologías especiales para su análisis',
     },
     {
-      termino: 'Innovación',
-      significado: 'Introducción de nuevos productos, procesos o ideas',
-    },
-    {
-      termino: 'Metodología de la ingeniería',
-      significado: 'Conjunto de métodos y técnicas utilizadas en la ingeniería',
-    },
-    {
-      termino: 'Pensamiento crítico',
+      termino: 'Ciberfísicos',
       significado:
-        'Capacidad de analizar información y evaluar argumentos de manera objetiva',
+        'Sistemas que combinan componentes físicos y digitales, como fábricas inteligentes',
     },
     {
-      termino: 'Principios de la ingeniería',
+      termino: 'Ciberseguridad',
       significado:
-        'Conceptos fundamentales que guían la práctica de la ingeniería',
+        'Protección de sistemas informáticos, redes y datos contra ataques',
     },
     {
-      termino: 'Problema',
-      significado: 'Situación que requiere una solución',
-    },
-    {
-      termino: 'Resolución de problemas',
-      significado: 'Proceso de identificar, analizar y resolver problemas',
-    },
-    {
-      termino: 'Solución',
-      significado: 'Respuesta o resultado que resuelve un problema o necesidad',
-    },
-    {
-      termino: 'Tecnología',
+      termino: 'Controlador PID',
       significado:
-        'Conjunto de herramientas y técnicas utilizadas para resolver problemas',
+        'Es un mecanismo de control muy común en la industria y en diversos sistemas automatizados',
+    },
+    {
+      termino: 'Ethernet o fieldbus',
+      significado:
+        'Es una tecnología de comunicación utilizadas en redes industriales, pero cada una tiene sus propias características y aplicaciones',
+    },
+    {
+      termino: 'Fabricación aditiva',
+      significado: 'Sinónimo de impresión 3D',
+    },
+    {
+      termino: 'Google Cloud IoT Core',
+      significado:
+        'Es un servicio gestionado que forma parte de la plataforma en la nube de Google',
+    },
+    {
+      termino: 'Impresión 3D',
+      significado:
+        'Tecnología que crea objetos tridimensionales a partir de un modelo digital',
+    },
+    {
+      termino: 'Inteligencia artificial',
+      significado:
+        'Capacidad de las máquinas para imitar la inteligencia humana',
+    },
+    {
+      termino: 'Internet de las cosas (IoT)',
+      significado: 'Red de dispositivos físicos conectados a internet',
+    },
+    {
+      termino: 'Machine learning',
+      significado:
+        'Subcampo de la inteligencia artificial enfocado en el aprendizaje automático',
+    },
+    {
+      termino: 'Neurociencia',
+      significado: 'Estudio del sistema nervioso',
+    },
+    {
+      termino: 'Plataformas digitales',
+      significado:
+        'Entornos virtuales que facilitan la interacción y el intercambio de información',
+    },
+    {
+      termino: 'Realidad aumentada',
+      significado: 'Tecnología que superpone elementos virtuales al mundo real',
     },
   ],
   complementario: [

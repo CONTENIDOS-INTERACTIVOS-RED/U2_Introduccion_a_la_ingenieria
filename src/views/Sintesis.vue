@@ -1,9 +1,9 @@
 <template lang="pug">
 .curso-main-container.creditos-vista
-  BannerInterno(:titulo="'FUNDAMENTACIÓN JURÍDICA - unidad 1'" :subTitulo="'SÍNTESIS'")
+  BannerInterno(:titulo="'Unidad 2. Introducción a la Revolución 4.0 en Ingeniería'" :subTitulo="'SÍNTESIS'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 En la unidad 1, <strong>Fundamentos de la ingeniería</strong>, el estudiante construirá una base de conocimientos sólidos que le permitirá transformar el mundo a su alrededor. La ingeniería no se limita a fórmulas y cálculos, sino que combina creatividad, pensamiento crítico y resolución de problemas para diseñar soluciones innovadoras. En esta unidad, aprenderá los fundamentos teóricos, explorará diversas ramas, conocerá la historia de la ingeniería y pondrá a prueba sus conocimientos básicos. Su éxito dependerá de su compromiso y curiosidad. Al finalizar, estará preparado para enfrentar los desafíos del siglo XXI y contribuir a un mundo mejor, donde la innovación no tiene límites. 
-    figure
+    p.mb-4.mb-md-5 La unidad 2: <strong>Introducción a la Revolución 4.0 en Ingeniería</strong>, explora cómo esta nueva era industrial transforma el entorno a través de la integración de tecnologías digitales, físicas y biológicas. La Revolución 4.0 se caracteriza por la interconexión completa, impulsada por el Internet de las cosas (IoT), la inteligencia artificial y la automatización avanzada, que permite a los objetos conectarse y procesar datos en tiempo real. Estos sistemas ciberfísicos pueden ajustar sus operaciones según las necesidades del entorno, incrementando la eficiencia en sectores como la salud, la energía y la movilidad. Si bien la Revolución 4.0 ofrece muchas oportunidades, también presenta desafíos importantes, como la ciberseguridad y los cambios en el mercado laboral.
+     figure
       img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     
 
