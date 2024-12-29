@@ -15,7 +15,7 @@
     
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        <iframe width="1903" height="748" src="https://www.youtube.com/embed/c8o7X3X2Dd8" title="Internet de las Cosas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   
     h2.mb-4 ¿Cómo funciona el IoT?
     .row.mb-5
@@ -58,7 +58,7 @@
     p.text-bold.mb-4 Ejemplo completo: Invernadero inteligente
     p.mb-4 Un invernadero equipado con sensores mide temperatura, humedad, luz y nutrientes en el suelo. Estos datos se envían a la nube, donde un algoritmo determina si es necesario ajustar la iluminación o el riego. Los actuadores ejecutan estos cambios y el agricultor puede monitorear y ajustar los parámetros a través de una aplicación móvil.
 
-    .row.bg-azul-claro.bg-full-width.py-4.mb-0
+    .row.bg-azul-claro.bg-full-width.py-4.mb-5
       div.px-5.pb-md-3.py-4.d-flex
         .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
           img.h-100(src='@/assets/curso/unidad/img-65.png', alt='Texto que describa la imagen')
@@ -71,6 +71,21 @@
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong>  ¿Sabía que el IoT está revolucionando la industria mediante el monitoreo en tiempo real?
 
+
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/275562") Pérez Calle, R. (2024). Economía, derecho y empresa ante una nueva era: digitalización, IA, y competitividad. Dykinson.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/lTd9wn3HywU") La ecuación digital (2023). Industria 4.0: La convergencia IT-OT como clave del éxito [Vídeo]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 </template>
 

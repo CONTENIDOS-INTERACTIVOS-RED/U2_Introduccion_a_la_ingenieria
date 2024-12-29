@@ -49,14 +49,20 @@ export default {
         desarrolloContenidos: true,
         subMenu: [],
       },
+      {
+        nombreRuta: 'sintesis',
+        titulo: 'Síntesis',
+        unidad: '',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
-      // {
-      //   nombreRuta: 'actividad',
-      //   icono: 'far fa-question-circle',
-      //   titulo: 'Actividad didáctica',
-      //   desarrolloContenidos: true,
-      // },
+      {
+        nombreRuta: 'actividadDidactica',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -73,19 +79,9 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-file-download',
-        titulo: 'Descargar PDF',
-        download: 'downloads/Introducción a la ingenieria_U2.zip',
-      },
-      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
-      },
-      {
-        icono: 'far fa-registered',
-        titulo: 'Síntesis',
-        nombreRuta: 'sintesis',
       },
     ],
   },
@@ -129,83 +125,92 @@ export default {
     {
       termino: 'Automatización',
       significado:
-        'Uso de tecnologías para realizar tareas de forma automática',
+        'Uso de tecnologías para realizar tareas de forma automática.',
     },
     {
       termino: 'AWS IoT Core',
       significado:
-        'Conector que permite conectar una gran cantidad de dispositivos de diferentes tipos y protocolos',
+        'Conector que permite conectar una gran cantidad de dispositivos de diferentes tipos y protocolos.',
     },
     {
       termino: 'Azure IoT Hub',
       significado:
-        'Facilitador de gestión de un gran número de dispositivos, incluyendo tareas como la configuración, actualización y monitoreo',
+        'Facilitador de gestión de un gran número de dispositivos, incluyendo tareas como la configuración, actualización y monitoreo.',
     },
     {
       termino: 'Big data',
       significado:
-        'Grandes volúmenes de datos que requieren tecnologías especiales para su análisis',
+        'Grandes volúmenes de datos que requieren tecnologías especiales para su análisis.',
     },
     {
       termino: 'Ciberfísicos',
       significado:
-        'Sistemas que combinan componentes físicos y digitales, como fábricas inteligentes',
+        'Sistemas que combinan componentes físicos y digitales, como fábricas inteligentes.',
     },
     {
       termino: 'Ciberseguridad',
       significado:
-        'Protección de sistemas informáticos, redes y datos contra ataques',
+        'Protección de sistemas informáticos, redes y datos contra ataques.',
     },
     {
       termino: 'Controlador PID',
       significado:
-        'Es un mecanismo de control muy común en la industria y en diversos sistemas automatizados',
+        'Es un mecanismo de control muy común en la industria y en diversos sistemas automatizados.',
     },
     {
       termino: 'Ethernet o fieldbus',
       significado:
-        'Es una tecnología de comunicación utilizadas en redes industriales, pero cada una tiene sus propias características y aplicaciones',
+        'Es una tecnología de comunicación utilizadas en redes industriales, pero cada una tiene sus propias características y aplicaciones.',
     },
     {
       termino: 'Fabricación aditiva',
-      significado: 'Sinónimo de impresión 3D',
+      significado: 'Sinónimo de impresión 3D.',
     },
     {
       termino: 'Google Cloud IoT Core',
       significado:
-        'Es un servicio gestionado que forma parte de la plataforma en la nube de Google',
+        'Es un servicio gestionado que forma parte de la plataforma en la nube de Google.',
     },
     {
       termino: 'Impresión 3D',
       significado:
-        'Tecnología que crea objetos tridimensionales a partir de un modelo digital',
+        'Tecnología que crea objetos tridimensionales a partir de un modelo digital.',
     },
     {
       termino: 'Inteligencia artificial',
       significado:
-        'Capacidad de las máquinas para imitar la inteligencia humana',
+        'Capacidad de las máquinas para imitar la inteligencia humana.',
     },
     {
       termino: 'Internet de las cosas (IoT)',
-      significado: 'Red de dispositivos físicos conectados a internet',
+      significado: 'Red de dispositivos físicos conectados a internet.',
     },
     {
       termino: 'Machine learning',
       significado:
-        'Subcampo de la inteligencia artificial enfocado en el aprendizaje automático',
+        'Subcampo de la inteligencia artificial enfocado en el aprendizaje automático.',
     },
     {
       termino: 'Neurociencia',
-      significado: 'Estudio del sistema nervioso',
+      significado: 'Estudio del sistema nervioso.',
     },
     {
       termino: 'Plataformas digitales',
       significado:
-        'Entornos virtuales que facilitan la interacción y el intercambio de información',
+        'Entornos virtuales que facilitan la interacción y el intercambio de información.',
     },
     {
       termino: 'Realidad aumentada',
-      significado: 'Tecnología que superpone elementos virtuales al mundo real',
+      significado:
+        'Tecnología que superpone elementos virtuales al mundo real.',
+    },
+    {
+      termino: 'Robótica',
+      significado: 'Diseño, construcción y operación de robots.',
+    },
+    {
+      termino: 'Sistemas cibernéticos',
+      significado: 'Sistemas complejos que se autorregulan y adaptan.',
     },
   ],
   complementario: [

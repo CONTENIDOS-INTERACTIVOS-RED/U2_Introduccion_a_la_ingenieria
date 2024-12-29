@@ -33,12 +33,12 @@
         div.d-flex.align-items-start.bg-amarillo-1.p-4.mb-4(data-aos="fade-left")
           img.me-3(style="width: 90px" src='@/assets/curso/unidad/img-10.svg', alt='Texto que describa la imagen')
           .d-flex.flex-column
-            p.pe-xl-3.mb-0(data-aos="fade-up") La integración de estas tecnologías ha creado entornos en los que sistemas físicos y digitales funcionan de manera seamless, dando lugar a sistemas ciberfísicos. En estos, la inteligencia artificial y el big data actúan como el “cerebro y sistema nervioso”, mientras que las transformaciones en los procesos y la interacción con el entorno son las “consecuencias” de esta integración.
+            p.pe-xl-3.mb-0(data-aos="fade-up") La integración de estas tecnologías ha creado entornos en los que sistemas físicos y digitales funcionan de manera seamless, dando lugar a sistemas ciberfísicos. En estos, la inteligencia artificial y el <i>big data</i> actúan como el “cerebro y sistema nervioso”, mientras que las transformaciones en los procesos y la interacción con el entorno son las “consecuencias” de esta integración.
       .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
         img(src='@/assets/curso/unidad/img-11.png', alt='Texto que describa la imagen')  
 
     h2.mb-4 Sistemas ciberfísicos
-    p.mb-4 Los sistemas ciberfísicos  combinan componentes computacionales y físicos, permitiendo monitoreo y control a través de internet, lo cual incrementa la eficiencia y flexibilidad en los procesos productivos. Algunos ejemplos son:
+    p.mb-4 Los sistemas ciberfísicos combinan componentes computacionales y físicos, permitiendo monitoreo y control a través de internet, lo cual incrementa la eficiencia y flexibilidad en los procesos productivos. Algunos ejemplos son:
 
 
     ImagenInfografica.color-secundario.mb-5
@@ -48,7 +48,7 @@
 
       .tarjeta.bg-white.p-4(x="28%" y="86%" numero="+")
         .h5.mb-2 Fábricas inteligentes
-        p A partir de una idea, los ingenieros desarrollan planos detallados, crean modelos y prototipos, y supervisan la construcción de proyectos.
+        p Máquinas que se comunican entre sí y con sistemas de planificación, facilitando una producción flexible y personalizada.
       .tarjeta.bg-white.p-4(x="50.5%" y="67%" numero="+")
         .h5.mb-2 Ciudades inteligentes
         p Sistemas de transporte, energía y gestión de residuos interconectados para optimizar la funcionalidad urbana.
@@ -136,7 +136,7 @@
               img(src='@/assets/curso/unidad/img-22.png', alt='Texto que describa la imagen')
           .col-md-12.col-lg-7.col-xl-8.mb-4.mb-md-0(data-aos="fade-left")
             h4 Robótica colaborativa
-            p(data-aos="fade-up") Los cobots trabajan de forma segura con humanos, mejorando flexibilidad y eficiencia.
+            p(data-aos="fade-up") Los <i>cobots</i> trabajan de forma segura con humanos, mejorando flexibilidad y eficiencia.
       .tabs-content.border.px-4.p-md-5.py-3(titulo="Ciberseguridad", :iconUrl="require('@/assets/curso/unidad/img-20.svg')")
         .row
           .d-none.d-lg-block.col-md-12.col-lg-5.col-xl-4(data-aos="fade-right")
@@ -282,7 +282,26 @@
                 p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Revolución 4.0: un nuevo paradigma para la ingeniería
 
     h2 La transformación de la ingeniería en la Revolución 4.0
-    p La Revolución 4.0 ha cambiado profundamente la práctica de la ingeniería, posicionando a los ingenieros como arquitectos de futuros digitales. Ahora, los profesionales de esta área no solo diseñan y construyen; también impulsan la innovación y solucionan problemas en un mundo conectado, gracias a herramientas avanzadas como la inteligencia artificial, el big data, y la automatización. Esta evolución ha transformado desde el diseño hasta el mantenimiento de productos y sistemas, permitiendo un enfoque más dinámico y eficiente en todos los procesos.  
+    p.mb-5 La Revolución 4.0 ha cambiado profundamente la práctica de la ingeniería, posicionando a los ingenieros como arquitectos de futuros digitales. Ahora, los profesionales de esta área no solo diseñan y construyen; también impulsan la innovación y solucionan problemas en un mundo conectado, gracias a herramientas avanzadas como la inteligencia artificial, el big data, y la automatización. Esta evolución ha transformado desde el diseño hasta el mantenimiento de productos y sistemas, permitiendo un enfoque más dinámico y eficiente en todos los procesos.  
+
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/127847") Cárdenas López, J. C., & López Garzón, W. F. (2019). Tecnología internet of things (IoT) y el big data. Mare Ingenii. Ingenierías.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/-OiaE6l8ysg") World Economic Forum. (2016). La Cuarta Revolución Industrial [Vídeo]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
+
+    
+
+
 
 </template>
 

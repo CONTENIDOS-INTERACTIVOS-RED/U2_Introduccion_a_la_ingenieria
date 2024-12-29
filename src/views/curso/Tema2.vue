@@ -179,11 +179,27 @@
             p.mb-4 <strong>Prótesis inteligentes:</strong> Controladas por el cerebro para mejorar la movilidad.
             p.mb-0 <strong>Diagnóstico asistido:</strong> Análisis de imágenes médicas mediante IA.
 
-    .row.mb-0
+    .row.mb-5
       .d-flex.align-items-center
         div.d-flex.align-items-center.bg-azul-claro.px-3.py-4(data-aos="fade-up")
           img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-61.svg', alt='Texto que describa la imagen')
           p.pe-xl-5.mb-0 Esta transformación ha ampliado enormemente el alcance de la ingeniería, donde el conocimiento técnico se combina con la capacidad de adaptación y la creatividad. La Revolución 4.0 no solo ha redefinido la ingeniería; también ha creado un nuevo estándar de habilidades para los profesionales que desean liderar la innovación en este mundo cada vez más digital y conectado.
+
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/129686") García Moreno, E. (2020). Automatización de procesos industriales: robótica y automática. Editorial UPV.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/11x6vllawVE") Saenz, D. (2020). Automatización Industrial - Introducción [Vídeo]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
+
 
 </template>
 
