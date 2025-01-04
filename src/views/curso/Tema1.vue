@@ -277,7 +277,7 @@
             .col-12.col-xl-7.col-xxl-8.d-flex.ps-4.ps-xl-5.align-items-center.flex-column(data-aos="fade-right")
               h2.mb-4.pb-2  ¿Sabía que la Revolución 4.0 está transformando la ingeniería?
               p.mb-5 Este documento: <strong>Revolución 4.0: un nuevo paradigma para la ingeniería</strong>, explora cómo tecnologías como la inteligencia artificial, la robótica y los gemelos digitales están revolucionando el diseño, la producción y el mantenimiento en distintos sectores. Descubra cómo estos avances están impulsando procesos más eficientes y sostenibles, preparando a la ingeniería para un futuro lleno de posibilidades.
-              a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+              a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_Revolución 4.0-un nuevo paradigma para la ingeniería.pdf')" target="_blank")
                 img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
                 p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Revolución 4.0: un nuevo paradigma para la ingeniería
 

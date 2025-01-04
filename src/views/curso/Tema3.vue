@@ -67,7 +67,7 @@
           p.mb-4 ¿Sabía que el IoT está revolucionando la industria mediante el monitoreo en tiempo real?  Lo invitamos a leer el documento Monitoreo de procesos industriales con IoT,  descubrirá cómo el IoT optimiza procesos, reduce costos y mejora la eficiencia en sectores clave como la manufactura y la logística.
 
           p.mb-5  A través de ejemplos de éxito, explore cómo las empresas líderes aplican estas tecnologías para anticiparse a fallas y fortalecer su competitividad global.
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_Monitoreo de procesos industriales con IoT.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong>  ¿Sabía que el IoT está revolucionando la industria mediante el monitoreo en tiempo real?
 
